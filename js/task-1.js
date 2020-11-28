@@ -1,5 +1,3 @@
-"use strict";
-
 let price = 1000;
 const name = "Генератор защитного поля";
 

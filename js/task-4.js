@@ -1,5 +1,3 @@
-"use strict";
-
 const count = prompt("Сколько дроидов Вы хотите приобрести?");
 const pricePerDroid = 3000;
 let totalPrice = pricePerDroid * count;
