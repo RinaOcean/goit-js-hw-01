@@ -8,7 +8,7 @@ if (destination === null) {
 //let country = destination.toLowerCase();
 
 let country = destination[0].toUpperCase() + destination.slice(1, 9).toLowerCase();
-
+let message = `Доставка в ${country} будет стоить ${cost} кредитов`;
 switch (country) {
   case "":
     alert("Ошибка! Ничего не введено!");
@@ -42,4 +42,4 @@ switch (country) {
     alert("В вашей стране доставка не доступна");
 }
 
-console.log(`Доставка в ${country} будет стоить ${cost} кредитов`);
+console.log(message);
